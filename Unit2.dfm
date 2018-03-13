@@ -1,6 +1,6 @@
 object Form2: TForm2
-  Left = 0
-  Top = 0
+  Left = 413
+  Top = 251
   Caption = 'Form2'
   ClientHeight = 201
   ClientWidth = 447
@@ -10,7 +10,9 @@ object Form2: TForm2
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  Menu = MainMenu1
   OldCreateOrder = False
+  Position = poDesigned
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -19,5 +21,9 @@ object Form2: TForm2
     Width = 31
     Height = 13
     Caption = 'Label1'
+  end
+  object MainMenu1: TMainMenu
+    Left = 264
+    Top = 120
   end
 end
